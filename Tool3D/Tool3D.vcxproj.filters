@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3Dmain">
+      <UniqueIdentifier>{7aa2cfc4-21c6-4268-bc03-131dea11f164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFCmenu">
+      <UniqueIdentifier>{e4508a28-7c17-4110-b76b-9ec0c6e9677f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{674c0335-70b5-44df-9bcd-31edb9773849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3Dmain\Common">
+      <UniqueIdentifier>{d007935f-f566-4727-ba92-a8ec931bbd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="else">
+      <UniqueIdentifier>{77e0635a-179a-42c3-8ff4-e49c088c037c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3Dmain\MapTool">
+      <UniqueIdentifier>{b48418c0-c23f-48d2-9979-74ca1c63c5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFCmenu\Tab">
+      <UniqueIdentifier>{6afceb1f-5c44-4384-ac19-84b416ed0bbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEdu01.h">
+      <Filter>3Dmain</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFormView.h">
+      <Filter>MFCmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MFCmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool3DView.h">
+      <Filter>MFCmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool3DDoc.h">
+      <Filter>MFCmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool3D.h">
+      <Filter>MFCmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>3Dmain</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DApp.h">
+      <Filter>3Dmain</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil.h">
+      <Filter>else</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>else</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>else</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>else</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Static.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Skinned.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTrailRender.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedAnimation.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSetBoundObject.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadParticleEmitter.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuad.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleQuad.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cPartcleEmitter.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Point.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Direction.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cImage.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundSphere.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundBox.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseObject.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneHierachy.h">
+      <Filter>3Dmain\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cDXFontManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cGizmoManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_ShaderFX.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_Texture.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XSkinnedMesh.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XStaticMesh.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletonBase.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_01.h">
+      <Filter>3Dmain\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>3Dmain\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadTree.h">
+      <Filter>3Dmain</Filter>
+    </ClInclude>
+    <ClInclude Include="tabBase.h">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="tabHeight.h">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="tabSplat.h">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="tabObject.h">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceList.h">
+      <Filter>3Dmain\MapTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEdu01.cpp">
+      <Filter>3Dmain</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFormView.cpp">
+      <Filter>MFCmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MFCmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool3DView.cpp">
+      <Filter>MFCmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool3DDoc.cpp">
+      <Filter>MFCmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool3D.cpp">
+      <Filter>MFCmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>3Dmain</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DApp.cpp">
+      <Filter>3Dmain</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtil.cpp">
+      <Filter>else</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>else</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Skinned.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Static.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTrailRender.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedAnimation.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSetBoundObject.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadParticleEmitter.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuad.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleQuad.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cPartcleEmitter.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Point.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Direction.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cImage.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundSphere.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundBox.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseObject.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneHierachy.cpp">
+      <Filter>3Dmain\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cDXFontManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cGizmoManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_ShaderFX.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_Texture.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XSkinnedMesh.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XStaticMesh.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingletonBase.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_01.cpp">
+      <Filter>3Dmain\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>3Dmain\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadTree.cpp">
+      <Filter>3Dmain</Filter>
+    </ClCompile>
+    <ClCompile Include="tabBase.cpp">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="tabHeight.cpp">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="tabSplat.cpp">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="tabObject.cpp">
+      <Filter>MFCmenu\Tab</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool3D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UserImages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool3DDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool3D.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool3D.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
